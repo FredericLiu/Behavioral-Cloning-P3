@@ -128,9 +128,9 @@ To capture good driving behavior, I first recorded two laps: one lap clockwise, 
 When training with this dataset, there are a few cornors the car would go off the road, so I supplement the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to get back to road when almost going off road.
 These images show what a recovery looks like from left side back to center:
 
-![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover1.jpg)
-![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover2.jpg)
-![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover3.jpg)
+![a](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover1.jpg)
+![al](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover2.jpg)
+![al](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover3.jpg)
 
 To augment the data sat, I also flipped images and angles thinking that this would extend the dataset.
 
