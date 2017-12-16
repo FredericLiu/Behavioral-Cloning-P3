@@ -46,7 +46,7 @@ I used the model which NVIDIA guys proposed in https://arxiv.org/abs/1604.07316,
 
 The model structure is as following:
 
-![image8](./writeup_img/model_structure.png)
+![image8](/writeup_img/model_structure.png)
 
 
 I didn't change any one parameter of this model, so the input data need to be resized to fit this model.
