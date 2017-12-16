@@ -46,7 +46,7 @@ I used the model which NVIDIA guys proposed in https://arxiv.org/abs/1604.07316,
 
 The model structure is as following:
 
-![image8](/writeup_img/model_structure.png)
+![image8](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/model_structure.png)
 
 
 I didn't change any one parameter of this model, so the input data need to be resized to fit this model.
@@ -123,14 +123,14 @@ The final model architecture (model.py lines 94-112) consisted of a convolution 
 
 To capture good driving behavior, I first recorded two laps: one lap clockwise, and one lap anti-clockwise, attampting to keep the car at the center of the road.
 
-![alt text][./writeup_img/center.jpg]
+![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_imgcenter.jpg)
 
 When training with this dataset, there are a few cornors the car would go off the road, so I supplement the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to get back to road when almost going off road.
 These images show what a recovery looks like from left side back to center:
 
-![alt text][./writeup_img/recover1.jpg]
-![alt text][./writeup_img/recover2.jpg]
-![alt text][./writeup_img/recover3.jpg]
+![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover1.jpg)
+![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover2.jpg)
+![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/recover3.jpg)
 
 To augment the data sat, I also flipped images and angles thinking that this would extend the dataset.
 
@@ -149,6 +149,6 @@ I also used the visualizion to show the loss value with the epochs. (code line 1
 
 But what strange is that during whole epochs, the validation loss is always lower than training loss, which should not be possible in real world. as following:
 
-![alt text][./writeup_img/training_result.png]
+![alt text](https://github.com/FredericLiu/Behavioral-Cloning-P3/blob/master/witeup_img/training_result.png)
 
 I didn't find the problem yet. I would be appreciate if anyone could figure out what is wrong in my code.
